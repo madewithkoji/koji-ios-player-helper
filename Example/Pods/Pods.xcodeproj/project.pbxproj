@@ -1,0 +1,738 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D2F23E8F3D481C6E3DF3DB944B63B4E /* KojiPlayerHelper.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FF5EB1E933F9C889DBF42FBCA4F9C362 /* KojiPlayerHelper.bundle */; };
+		2E7F88A5B6BB86EDD273D3659059AD35 /* KojiPlayerView-iframe.html in Resources */ = {isa = PBXBuildFile; fileRef = 8F996F6DDAE5679B994093FB70D2BBC6 /* KojiPlayerView-iframe.html */; };
+		40060186049A9286B8B6D2ACF145CB15 /* KojiPlayerHelper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D9C26A9811290DB8D2E4A469F70F2E1 /* KojiPlayerHelper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		462317ECD334887AB8BCAD027D28AA2A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		46848384EAE61C6249BF7D790C334E64 /* KojiRemixView-iframe.html in Resources */ = {isa = PBXBuildFile; fileRef = BDBA43CFF90F10A11E8AF71E5A5B0470 /* KojiRemixView-iframe.html */; };
+		4B7F7E5F18E03BC418AA2CB4BE6C9A2E /* KojiRemixView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78CB42F2767729CC882F2CCB70174CE0 /* KojiRemixView.swift */; };
+		6CFEF5F14EA34844C93E54BDE335C490 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		9BD95800CDC81FB5FAD5F6995485AAC8 /* KojiPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F0FD23280006BCD82BFC04E954EBE6 /* KojiPlayerView.swift */; };
+		BFEAC66DD2FDAB11E2BCBAB9AF8E0B29 /* Pods-Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7825A90E082A1582EB16256B0E722B3F /* Pods-Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C06513E045B81ECF261F4FA6D984C7F9 /* KojiPlayerHelper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ED0A73DEF38AEF6C3D003BB5DBA1494 /* KojiPlayerHelper-dummy.m */; };
+		F1E7EFA85D29E9B0288056291FBA0A89 /* Pods-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D7C498FA339E02BD53ECB8916CEA8E /* Pods-Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		14C1B57696C89246666B3A75C2FBF874 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FB5B7DFD12AE2CA8294E12DEA53838D;
+			remoteInfo = "KojiPlayerHelper-KojiPlayerHelper";
+		};
+		C59DC89058EE239998410F1A2529E1C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 196E6D919A2349CE257BADF44D992B8E;
+			remoteInfo = KojiPlayerHelper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0EFF31A406574D591180279AC3535D35 /* KojiPlayerHelper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KojiPlayerHelper.modulemap; sourceTree = "<group>"; };
+		1D72F24EFFCF891CD4153BCB8C7F314A /* KojiPlayerHelper.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = KojiPlayerHelper.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1F667CC0E19EAF34E5A4119E2121F585 /* Pods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Example.framework; path = "Pods-Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		243410B9535472556EA4BB6DBC133A0D /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
+		2ED0A73DEF38AEF6C3D003BB5DBA1494 /* KojiPlayerHelper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KojiPlayerHelper-dummy.m"; sourceTree = "<group>"; };
+		31C1D37707DFAA5E6A164BCC07834264 /* Pods-Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-Info.plist"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		35C305D3797C284E6F5BAA1D3E6F9BF8 /* Pods-Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Example.modulemap"; sourceTree = "<group>"; };
+		441854E35F81731E63E53DC7E4EEAD9D /* Pods-Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4703396B8C352610D47CBBEF9C1D5E19 /* ResourceBundle-KojiPlayerHelper-KojiPlayerHelper-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-KojiPlayerHelper-KojiPlayerHelper-Info.plist"; sourceTree = "<group>"; };
+		63A8AED75BF783139A236CFF655C550D /* KojiPlayerHelper-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KojiPlayerHelper-Info.plist"; sourceTree = "<group>"; };
+		6FBDD31D11B702D76339CB7AF6975670 /* KojiPlayerHelper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KojiPlayerHelper.release.xcconfig; sourceTree = "<group>"; };
+		7825A90E082A1582EB16256B0E722B3F /* Pods-Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Example-umbrella.h"; sourceTree = "<group>"; };
+		78CB42F2767729CC882F2CCB70174CE0 /* KojiRemixView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KojiRemixView.swift; path = KojiPlayerHelper/Classes/KojiRemixView.swift; sourceTree = "<group>"; };
+		8D9C26A9811290DB8D2E4A469F70F2E1 /* KojiPlayerHelper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KojiPlayerHelper-umbrella.h"; sourceTree = "<group>"; };
+		8F996F6DDAE5679B994093FB70D2BBC6 /* KojiPlayerView-iframe.html */ = {isa = PBXFileReference; includeInIndex = 1; name = "KojiPlayerView-iframe.html"; path = "KojiPlayerHelper/Assets/KojiPlayerView-iframe.html"; sourceTree = "<group>"; };
+		97F0FD23280006BCD82BFC04E954EBE6 /* KojiPlayerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KojiPlayerView.swift; path = KojiPlayerHelper/Classes/KojiPlayerView.swift; sourceTree = "<group>"; };
+		9BA256FBF5DCC302BA1B3A1575500BA6 /* KojiPlayerHelper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KojiPlayerHelper-prefix.pch"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A05C1436EE17D74D8FC4998473DE0F29 /* KojiPlayerHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KojiPlayerHelper.framework; path = KojiPlayerHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A63A99CE644F597A0A387B3863E643D0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		AA998617BCCDEF7CA55ADDBE69E09833 /* KojiPlayerHelper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KojiPlayerHelper.debug.xcconfig; sourceTree = "<group>"; };
+		AFECBC24E09D0D25F822C27BD944AFD4 /* Pods-Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-frameworks.sh"; sourceTree = "<group>"; };
+		B45138496B85A072654D1D0F8EBBEDE5 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
+		BDBA43CFF90F10A11E8AF71E5A5B0470 /* KojiRemixView-iframe.html */ = {isa = PBXFileReference; includeInIndex = 1; name = "KojiRemixView-iframe.html"; path = "KojiPlayerHelper/Assets/KojiRemixView-iframe.html"; sourceTree = "<group>"; };
+		D6D7C498FA339E02BD53ECB8916CEA8E /* Pods-Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Example-dummy.m"; sourceTree = "<group>"; };
+		EA21B344259B58996DB73382B1B1521F /* Pods-Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		FF5EB1E933F9C889DBF42FBCA4F9C362 /* KojiPlayerHelper.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = KojiPlayerHelper.bundle; path = "KojiPlayerHelper-KojiPlayerHelper.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7858FA82176ACBCED6FD325BE5C7506F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCCC7B9FFDDBEDD821C2115C816C93F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				462317ECD334887AB8BCAD027D28AA2A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDB74D6DC29BFDA79CE2B6214A83D6BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CFEF5F14EA34844C93E54BDE335C490 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2414FDD83819DF3FA3E541F8C8D22E4A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8F996F6DDAE5679B994093FB70D2BBC6 /* KojiPlayerView-iframe.html */,
+				BDBA43CFF90F10A11E8AF71E5A5B0470 /* KojiRemixView-iframe.html */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2B351943304731AB0AD187DFD5CFF642 /* KojiPlayerHelper */ = {
+			isa = PBXGroup;
+			children = (
+				97F0FD23280006BCD82BFC04E954EBE6 /* KojiPlayerView.swift */,
+				78CB42F2767729CC882F2CCB70174CE0 /* KojiRemixView.swift */,
+				F4FAC008CCF3B6F2C8ABD1FAC772773E /* Pod */,
+				2414FDD83819DF3FA3E541F8C8D22E4A /* Resources */,
+				37A9A18B0240E666C5B7F09529F7E88E /* Support Files */,
+			);
+			name = KojiPlayerHelper;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		2F0B2148FA20FCDCC2B5E32AA56499EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF5EB1E933F9C889DBF42FBCA4F9C362 /* KojiPlayerHelper.bundle */,
+				A05C1436EE17D74D8FC4998473DE0F29 /* KojiPlayerHelper.framework */,
+				1F667CC0E19EAF34E5A4119E2121F585 /* Pods_Example.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37A9A18B0240E666C5B7F09529F7E88E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0EFF31A406574D591180279AC3535D35 /* KojiPlayerHelper.modulemap */,
+				2ED0A73DEF38AEF6C3D003BB5DBA1494 /* KojiPlayerHelper-dummy.m */,
+				63A8AED75BF783139A236CFF655C550D /* KojiPlayerHelper-Info.plist */,
+				9BA256FBF5DCC302BA1B3A1575500BA6 /* KojiPlayerHelper-prefix.pch */,
+				8D9C26A9811290DB8D2E4A469F70F2E1 /* KojiPlayerHelper-umbrella.h */,
+				AA998617BCCDEF7CA55ADDBE69E09833 /* KojiPlayerHelper.debug.xcconfig */,
+				6FBDD31D11B702D76339CB7AF6975670 /* KojiPlayerHelper.release.xcconfig */,
+				4703396B8C352610D47CBBEF9C1D5E19 /* ResourceBundle-KojiPlayerHelper-KojiPlayerHelper-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/KojiPlayerHelper";
+			sourceTree = "<group>";
+		};
+		3A9D81C87E2754205AF30D47DAA8AD77 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2B351943304731AB0AD187DFD5CFF642 /* KojiPlayerHelper */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		9BDBD95ED116334D1B2835202D8D3060 /* Pods-Example */ = {
+			isa = PBXGroup;
+			children = (
+				35C305D3797C284E6F5BAA1D3E6F9BF8 /* Pods-Example.modulemap */,
+				441854E35F81731E63E53DC7E4EEAD9D /* Pods-Example-acknowledgements.markdown */,
+				EA21B344259B58996DB73382B1B1521F /* Pods-Example-acknowledgements.plist */,
+				D6D7C498FA339E02BD53ECB8916CEA8E /* Pods-Example-dummy.m */,
+				AFECBC24E09D0D25F822C27BD944AFD4 /* Pods-Example-frameworks.sh */,
+				31C1D37707DFAA5E6A164BCC07834264 /* Pods-Example-Info.plist */,
+				7825A90E082A1582EB16256B0E722B3F /* Pods-Example-umbrella.h */,
+				B45138496B85A072654D1D0F8EBBEDE5 /* Pods-Example.debug.xcconfig */,
+				243410B9535472556EA4BB6DBC133A0D /* Pods-Example.release.xcconfig */,
+			);
+			name = "Pods-Example";
+			path = "Target Support Files/Pods-Example";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CE2E825F08D3AD0FD76E6D78D7512ED0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9BDBD95ED116334D1B2835202D8D3060 /* Pods-Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				3A9D81C87E2754205AF30D47DAA8AD77 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				2F0B2148FA20FCDCC2B5E32AA56499EE /* Products */,
+				CE2E825F08D3AD0FD76E6D78D7512ED0 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F4FAC008CCF3B6F2C8ABD1FAC772773E /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				1D72F24EFFCF891CD4153BCB8C7F314A /* KojiPlayerHelper.podspec */,
+				A63A99CE644F597A0A387B3863E643D0 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0A923E5958436EFECC3DF14CBC712458 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40060186049A9286B8B6D2ACF145CB15 /* KojiPlayerHelper-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFE71DCF8A31A321EBB2081EB8D36DB1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFEAC66DD2FDAB11E2BCBAB9AF8E0B29 /* Pods-Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0AEE99A309977BD12A049FF48AF9BA4B /* Pods-Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49254569E571426EF65C22C31F318D14 /* Build configuration list for PBXNativeTarget "Pods-Example" */;
+			buildPhases = (
+				DFE71DCF8A31A321EBB2081EB8D36DB1 /* Headers */,
+				95EE73896CA8269EB691311682DC128E /* Sources */,
+				FDB74D6DC29BFDA79CE2B6214A83D6BA /* Frameworks */,
+				314209BACCAA92F7FA6939AEFA7BAC2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C85E7C0972C094D181D759ABED279E02 /* PBXTargetDependency */,
+			);
+			name = "Pods-Example";
+			productName = "Pods-Example";
+			productReference = 1F667CC0E19EAF34E5A4119E2121F585 /* Pods_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		196E6D919A2349CE257BADF44D992B8E /* KojiPlayerHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74C5687FA2BC0BB5D2B8276D9043EA91 /* Build configuration list for PBXNativeTarget "KojiPlayerHelper" */;
+			buildPhases = (
+				0A923E5958436EFECC3DF14CBC712458 /* Headers */,
+				2243B21F7206CEBAF326D5D9D4C44193 /* Sources */,
+				DCCC7B9FFDDBEDD821C2115C816C93F2 /* Frameworks */,
+				2569A760BED08177EB6F13B4D6815740 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD7A307ECFBF155082947108E02CA475 /* PBXTargetDependency */,
+			);
+			name = KojiPlayerHelper;
+			productName = KojiPlayerHelper;
+			productReference = A05C1436EE17D74D8FC4998473DE0F29 /* KojiPlayerHelper.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6FB5B7DFD12AE2CA8294E12DEA53838D /* KojiPlayerHelper-KojiPlayerHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C14B561F483F2C14B5A6773CF166D178 /* Build configuration list for PBXNativeTarget "KojiPlayerHelper-KojiPlayerHelper" */;
+			buildPhases = (
+				94AF68A9A60744AD99D4802D51A51764 /* Sources */,
+				7858FA82176ACBCED6FD325BE5C7506F /* Frameworks */,
+				2CABA1FCC6A3ACCB2E1557ED938EC8FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "KojiPlayerHelper-KojiPlayerHelper";
+			productName = "KojiPlayerHelper-KojiPlayerHelper";
+			productReference = FF5EB1E933F9C889DBF42FBCA4F9C362 /* KojiPlayerHelper.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 2F0B2148FA20FCDCC2B5E32AA56499EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				196E6D919A2349CE257BADF44D992B8E /* KojiPlayerHelper */,
+				6FB5B7DFD12AE2CA8294E12DEA53838D /* KojiPlayerHelper-KojiPlayerHelper */,
+				0AEE99A309977BD12A049FF48AF9BA4B /* Pods-Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2569A760BED08177EB6F13B4D6815740 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D2F23E8F3D481C6E3DF3DB944B63B4E /* KojiPlayerHelper.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CABA1FCC6A3ACCB2E1557ED938EC8FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E7F88A5B6BB86EDD273D3659059AD35 /* KojiPlayerView-iframe.html in Resources */,
+				46848384EAE61C6249BF7D790C334E64 /* KojiRemixView-iframe.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		314209BACCAA92F7FA6939AEFA7BAC2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2243B21F7206CEBAF326D5D9D4C44193 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C06513E045B81ECF261F4FA6D984C7F9 /* KojiPlayerHelper-dummy.m in Sources */,
+				9BD95800CDC81FB5FAD5F6995485AAC8 /* KojiPlayerView.swift in Sources */,
+				4B7F7E5F18E03BC418AA2CB4BE6C9A2E /* KojiRemixView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94AF68A9A60744AD99D4802D51A51764 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95EE73896CA8269EB691311682DC128E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1E7EFA85D29E9B0288056291FBA0A89 /* Pods-Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C85E7C0972C094D181D759ABED279E02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KojiPlayerHelper;
+			target = 196E6D919A2349CE257BADF44D992B8E /* KojiPlayerHelper */;
+			targetProxy = C59DC89058EE239998410F1A2529E1C2 /* PBXContainerItemProxy */;
+		};
+		CD7A307ECFBF155082947108E02CA475 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "KojiPlayerHelper-KojiPlayerHelper";
+			target = 6FB5B7DFD12AE2CA8294E12DEA53838D /* KojiPlayerHelper-KojiPlayerHelper */;
+			targetProxy = 14C1B57696C89246666B3A75C2FBF874 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		4F99E02F1F1938AC9A3148D9C76D3AA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA998617BCCDEF7CA55ADDBE69E09833 /* KojiPlayerHelper.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KojiPlayerHelper/KojiPlayerHelper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KojiPlayerHelper/KojiPlayerHelper-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/KojiPlayerHelper/KojiPlayerHelper.modulemap";
+				PRODUCT_MODULE_NAME = KojiPlayerHelper;
+				PRODUCT_NAME = KojiPlayerHelper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		650E941E0E6B5903D8B40407A1E02F08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FBDD31D11B702D76339CB7AF6975670 /* KojiPlayerHelper.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/KojiPlayerHelper";
+				IBSC_MODULE = KojiPlayerHelper;
+				INFOPLIST_FILE = "Target Support Files/KojiPlayerHelper/ResourceBundle-KojiPlayerHelper-KojiPlayerHelper-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = KojiPlayerHelper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A544C2F003C865C2A8DCC417D8620EFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA998617BCCDEF7CA55ADDBE69E09833 /* KojiPlayerHelper.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/KojiPlayerHelper";
+				IBSC_MODULE = KojiPlayerHelper;
+				INFOPLIST_FILE = "Target Support Files/KojiPlayerHelper/ResourceBundle-KojiPlayerHelper-KojiPlayerHelper-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = KojiPlayerHelper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		A58127571A03CC740C2744ECB9EA4F92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 243410B9535472556EA4BB6DBC133A0D /* Pods-Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Example/Pods-Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Example/Pods-Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A80C10892E4688245BBCB842D557C1C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FBDD31D11B702D76339CB7AF6975670 /* KojiPlayerHelper.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KojiPlayerHelper/KojiPlayerHelper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KojiPlayerHelper/KojiPlayerHelper-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/KojiPlayerHelper/KojiPlayerHelper.modulemap";
+				PRODUCT_MODULE_NAME = KojiPlayerHelper;
+				PRODUCT_NAME = KojiPlayerHelper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CAFCAD43FB144DB69E33D993298247BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B45138496B85A072654D1D0F8EBBEDE5 /* Pods-Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Example/Pods-Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Example/Pods-Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49254569E571426EF65C22C31F318D14 /* Build configuration list for PBXNativeTarget "Pods-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAFCAD43FB144DB69E33D993298247BD /* Debug */,
+				A58127571A03CC740C2744ECB9EA4F92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74C5687FA2BC0BB5D2B8276D9043EA91 /* Build configuration list for PBXNativeTarget "KojiPlayerHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F99E02F1F1938AC9A3148D9C76D3AA8 /* Debug */,
+				A80C10892E4688245BBCB842D557C1C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C14B561F483F2C14B5A6773CF166D178 /* Build configuration list for PBXNativeTarget "KojiPlayerHelper-KojiPlayerHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A544C2F003C865C2A8DCC417D8620EFE /* Debug */,
+				650E941E0E6B5903D8B40407A1E02F08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

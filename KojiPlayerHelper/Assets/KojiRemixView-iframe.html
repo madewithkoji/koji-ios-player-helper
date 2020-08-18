@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
+  <style>
+    body { margin: 0; width: 100vw; height: 100vh; background-color: black; color: white; }
+    html { width: 100vw; height: 100vh; background-color: black; color: white; }
+
+    .embed-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100vw !important;
+      height: 100vh !important;
+      outline: none;
+      border: none;
+      pointer-events: all;
+      background-color: black;
+    }
+  </style>
+</head>
+<body>
+  <div class="embed-container">
+    <iframe id="koji-root" src="https://withkoji.com/_embeds/remix?appId=%@"></iframe>
+  </div>
+  <script>
+    (function () {
+      const rootId = 'koji-root';
+      const getRoot = () => document.getElementById(rootId);
+
+      const sendMessageToIframe = (eventName, message = {}) => {
+        try {
+          getRoot().contentWindow.postMessage({
+            _kojiEventName: eventName,
+            ...message,
+          }, '*');
+        } catch (err) {
+          console.log(err);
+        }
+      };
+
+      const sendMessageToApp = (messageString) => {
+        try {
+          window.webkit.messageHandlers.callback.postMessage(messageString);
+        } catch(err) {
+          console.log(err);
+        }
+      }
+
+      // Setup listener for SDK
+      window.addEventListener('message', ({ data }) => {
+        try {
+          // Root frame has loaded
+          if (data._kojiEventName === '@@koji_sdk/create/DISMISS') {
+            sendMessageToApp('dismiss');
+          }
+
+          // User tapped "remix" button
+          if (data._kojiEventName === '@@koji_sdk/create/POST_CREATED') {
+            sendMessageToApp(`post-created:${data.payload.url}`)
+          }
+        } catch (err) {
+          //
+        }
+      });
+    }());
+  </script>
+</body>
+</html>

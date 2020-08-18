@@ -1,0 +1,25 @@
+{
+  "name": "koji-ios-player-helper",
+  "version": "0.0.1",
+  "summary": "UIView for rendering Kojis",
+  "swift_versions": "4.2",
+  "description": "A helper library for rendering [Kojis](https://withkoji.com) in iOS applications",
+  "homepage": "https://github.com/madewithkoji/koji-sdk",
+  "authors": {
+    "Sean Thielen": "sean@gometa.io"
+  },
+  "source": {
+    "git": "https://github.com/madewithkoji/koji-sdk.git",
+    "tag": "0.0.1"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "koji-ios-player-helper/Classes/**/*",
+  "resource_bundles": {
+    "koji-ios-player-helper": [
+      "koji-ios-player-helper/Assets/*"
+    ]
+  },
+  "swift_version": "4.2"
+}

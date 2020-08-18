@@ -1,0 +1,16 @@
+PODS:
+  - KojiPlayerHelper (0.0.1)
+
+DEPENDENCIES:
+  - KojiPlayerHelper (from `../`)
+
+EXTERNAL SOURCES:
+  KojiPlayerHelper:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KojiPlayerHelper: 3244baa3243ccbfabd1b880ede05678a285c6915
+
+PODFILE CHECKSUM: 020f3acf2b7ab4dab7bc4794bb7030e6d8b4bcb1
+
+COCOAPODS: 1.9.3
