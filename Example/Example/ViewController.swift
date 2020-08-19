@@ -104,8 +104,8 @@ class TableCell: UITableViewCell {
 
 extension TableCell: KojiPlayerViewDelegate {
   func playerViewDidLoad(_ playerView: KojiPlayerView) {
-
     self.hasLoaded = true
+    self.player.play()
   }
 
   func playerViewShouldPresentRemixView(_ playerView: KojiPlayerView, remixView: KojiRemixView) {
